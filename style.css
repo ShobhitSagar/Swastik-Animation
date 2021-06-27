@@ -1,0 +1,127 @@
+* {
+    background-color: aquamarine;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+
+    border-radius: 5px;
+}
+
+p {
+    color: #fff;
+    position: absolute;
+    font-size: 28px;
+    font-family: monospace;
+    margin-top: 0px;
+    
+    background: transparent;
+}
+
+.div0 {
+    animation-name: div0;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.div1 {
+    animation-name: div1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.div2 {
+    animation-name: div2;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+.div3 {
+    animation-name: div3;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+.div4 {
+    animation-name: div4;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.div5 {
+    animation-name: div5;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+.div6 {
+    animation-name: div6;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+.div7 {
+    animation-name: div7;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+@keyframes div0 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    100% { margin-left: 120px; margin-top: 0px; }
+}
+
+@keyframes div1 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    100% { margin-left: -120px; margin-top: 0px; }
+}
+
+@keyframes div2 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    50% { margin-left: 120px; margin-top: 0px; }
+    100% { margin-left: 120px; margin-top: -120px; }
+}
+
+@keyframes div3 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    50% { margin-left: -120px; margin-top: 0px; }
+    100% { margin-left: -120px; margin-top: 120px; }
+}
+
+@keyframes div4 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    100% { margin-left: 0px; margin-top: -120px; }
+}
+
+@keyframes div5 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    100% { margin-left: 0px; margin-top: 120px; }
+}
+
+@keyframes div6 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    50% { margin-left: 0px; margin-top: -120px; }
+    100% { margin-left: -120px; margin-top: -120px; }
+}
+
+@keyframes div7 {
+    0% { margin-left: 0px; margin-top: 0px; }
+    50% { margin-left: 0px; margin-top: 120px; }
+    100% { margin-left: 120px; margin-top: 120px; }
+}
+
+@keyframes div8 {
+	0% { width: 100px; height: 100px; }
+	50% { border-radius: 50%; }
+	100% { width: 340px; height: 340px; background-color: #121212; }
+}
